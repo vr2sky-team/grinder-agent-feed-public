@@ -1,4 +1,25 @@
 {
-  "_meta": {},
-  "context": {}
+  "_meta": {
+    "generated_at": "2025-10-24T22:59:00Z"
+  },
+  "context": {
+    "phases": [
+      {"id":"P1","name":"Relance & cadrage","status":"ready","objectives":["Relancer le projet","Clarifier périmètre/KPI"],"deliverables":["README projet","Plan phases"],"kpi":["OK cadrage"]},
+      {"id":"P2","name":"Ré-initialisation technique","status":"ready","objectives":["Envs WSL2=VPS iso","Tooling de base"],"deliverables":["Post-install VPS",".venv Python"],"kpi":["Checks env OK"]},
+      {"id":"P3","name":"Architecture & modules","status":"ready","objectives":["DAGs/structure modules","Contrats I/O"],"deliverables":["Spec YAML","Schémas"],"kpi":["Schemas validés"]},
+      {"id":"P4","name":"Fonctions critiques","status":"ready","objectives":["Ledger/état","Gestion erreurs"],"deliverables":["Ledger CSV","Handlers erreurs"],"kpi":["Tests unitaires"]},
+      {"id":"P5","name":"Signaux RSI/var/vola","status":"ready","objectives":["RSI/volatilité","Fenêtres rolling"],"deliverables":["Module signaux"],"kpi":["Backtests min"]},
+      {"id":"P6","name":"Exécution réelle Binance","status":"ready","objectives":["DRY_RUN→LIVE contrôlé","Limites risques"],"deliverables":["Exécuteur","Switch modes"],"kpi":["Zero incident"]},
+      {"id":"P7","name":"Auto-Confirm RSI/SMA","status":"ready","objectives":["Auto-confirm","Cooldowns"],"deliverables":["Auto-règles"],"kpi":["Faux positifs↓"]},
+      {"id":"P8","name":"Signaux intelligents & dashboard","status":"ready","objectives":["Dashboard web","Signaux composites"],"deliverables":["UI/Graf"],"kpi":["SLA fraîcheur"]},
+      {"id":"P9","name":"Reporting & maintenance","status":"ready","objectives":["PDF/ZIP mensuels","Backups/rotate"],"deliverables":["Rapports","Procédures"],"kpi":["MTTR↓"]}
+    ],
+    "governance": {
+      "rules": ["DRY_RUN par défaut","SAFE-EDIT","Compat Python 3.8","Logs [OK]/[INFO]/[ERREUR]"],
+      "agents": ["CPP","DEV","TEST","DOC","OPS","ARCH","CFG","REL"]
+    },
+    "active_phase": "P1",
+    "ref": "main",
+    "repo": "vr2sky/grinder"
+  }
 }
