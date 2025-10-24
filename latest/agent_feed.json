@@ -1,14 +1,14 @@
 {
-  "updated_at": "2025-10-24T14:13:19Z",
+  "updated_at": "2025-10-24T19:18:14Z",
   "runs": [
     {
-      "id": 18782426279,
+      "id": 18789803587,
       "status": "success",
-      "created_at": "2025-10-24T14:13:19Z",
+      "created_at": "2025-10-24T19:18:14Z",
       "conclusion": "success",
       "branch": "main",
-      "repo": "vr2sky/grinder",
-      "sha": "327ebc58efe77db1fb40f6af4ce0c91c682f0d3e"
+      "repo": "vr2sky/grinder-agent-feed",
+      "sha": "26efa3f37f3a9c7d0d31aabe0cef269eacce0b0b"
     }
   ],
   "checks": [
@@ -16,14 +16,9 @@
       "name": "Agent context sync",
       "status": "success",
       "duration_s": 20,
-      "run_id": 18782426279
+      "run_id": 18789803587
     }
   ],
-  "_meta": {
-    "source_repo": "vr2sky/grinder",
-    "emitter": "publish-feed",
-    "version": 1
-  },
   "checklist": [
     {
       "id": "ctx.sha256",
