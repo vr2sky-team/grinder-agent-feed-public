@@ -1,7 +1,15 @@
-# STATUS — Public snapshot (CPP)
+## Roadmap Phases (P1→P9)
+- [ ] P1 Relance & cadrage
+- [ ] P2 Ré-initialisation technique
+- [ ] P3 Architecture & modules
+- [ ] P4 Fonctions critiques
+- [ ] P5 Signaux RSI/var/vola
+- [ ] P6 Exécution réelle Binance
+- [ ] P7 Auto-Confirm RSI/SMA
+- [ ] P8 Signaux intelligents & dashboard
+- [ ] P9 Reporting & maintenance
 
-- **Repo**: `vr2sky/grinder`
-- **Generated at**: 2025-10-24T21:32:25Z
-- **Source branch**: main
-- **Run ID**: 18791773239
 
+
+---
+_meta_: repo=`vr2sky/grinder`, branch=main, run_id=18791773239, generated_at=2025-10-25T04:48:19Z
